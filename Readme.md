@@ -44,3 +44,16 @@ The system uses the OpenWeatherMap API for weather data. You need an API key to 
     Right-click on the index.html file and select "Open with Live Server".
     
     This will launch the application in your default web browser.  
+
+
+
+## Security
+API Key Management: API keys are currently hard-coded in the JavaScript file. For production use, it is recommended to manage API keys securely, using environment variables or secure storage solutions to prevent unauthorized access.
+
+## Performance
+Efficient Data Retrieval: The application fetches data from the OpenWeatherMap API asynchronously to ensure that the user interface remains responsive and that API calls are optimized to avoid redundant requests.
+
+
+## Bonus Features (Planned Enhancements)
+
+Additional Weather Parameters: Future improvements may include the integration of additional weather parameters such as humidity and wind speed for a more comprehensive weather overview.
